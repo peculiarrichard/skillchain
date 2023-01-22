@@ -7,33 +7,33 @@ import "./Certification.sol";
 
 // Defining the contract structure for Institution
 contract Institution {
-// State variable to store the address of the owner
-address public owner;
+    // State variable to store the address of the owner
+    address public owner;
 
-    // Mappings for storing institutes and courses
-mapping(address => Institute) private institutes; // Institutes Mapping
-mapping(address => Course[]) private instituteCourses; // Courses Mapping
+        // Mappings for storing institutes and courses
+    mapping(address => Institute) private institutes; // Institutes Mapping
+    mapping(address => Course[]) private instituteCourses; // Courses Mapping
 
-// Event for when a new institute is added
-event instituteAdded(string _instituteName);
+    // Event for when a new institute is added
+    event instituteAdded(string _instituteName);
 
-// Constructor function that sets the owner to the address of the contract creator
-constructor() public {
-    owner = msg.sender;
-}
+    // Constructor function that sets the owner to the address of the contract creator
+    constructor() public {
+        owner = msg.sender;
+    }
 
-// Structure for storing course information
-struct Course {
-    string course_name;
-    // Other attributes can be added
-}
+    // Structure for storing course information
+    struct Course {
+        string course_name;
+        // Other attributes can be added
+    }
 
-// Structure for storing institute information
-struct Institute {
-    string institute_name;
-    string institute_acronym;
-    string institute_link;
-}
+    // Structure for storing institute information
+    struct Institute {
+        string institute_name;
+        string institute_acronym;
+        string institute_link;
+    }
 
 // Function for converting a string to bytes32
 function stringToBytes32(string memory source)
@@ -57,7 +57,7 @@ function addInstitute(
     string memory _institute_acronym,
     string memory _institute_link,
     Course[] memory _institute_courses
-) public returns (bool) {
+    ) public returns (bool) {
     // Only owner can add institute
     require(
         msg.sender == owner,
@@ -86,7 +86,7 @@ function addInstitute(
 }
 
    // Function for retrieving institute data, called by institutions
-    function getInstituteData()
+   function getInstituteData()
         public
         view
         returns (
