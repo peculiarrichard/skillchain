@@ -148,7 +148,7 @@ Import the account that was used to deploy the contracts, to do this, use the pr
 
 ![](https://i.imgur.com/f090jmt.png)
 
-### Option 2 - To connect to Rinkeby test network
+### Option 2 - To connect to Goerli test network
 
 ```bash
 npm run start:testnet
