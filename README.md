@@ -203,6 +203,6 @@ You are welcome to visit the live website connected to the Ethereum Goerli netwo
 ## Team Members
 
 - [Peculiar Richard](https://github.com/peculiarrichard)
-- [Michael Adesina](https://github.com/m-azra3l)
+- [Michael Damilare Adesina](https://github.com/m-azra3l)
 - [Egar King David](https://github.com/KingDavid9991)
 - [Folayowon Oladapo](https://github.com/folayowon)
