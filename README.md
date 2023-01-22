@@ -197,7 +197,7 @@ docker run -v %(cd)%:/contracts mythril/myth analyze /contracts/Certification.so
 
 ## Finished project
 
-You are welcome to visit the live website connected to the Ethereum Rinkeby network at https://skillchain.vercel.app/ 😁
+You are welcome to visit the live website connected to the Ethereum Goerli network at https://skillchain.vercel.app/ 😁
 
 
 ## Team Members
