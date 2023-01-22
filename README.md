@@ -1,4 +1,4 @@
-### SkillChain - A DApp designed for institutes and colleges used for issuing and verifying certificates that are not mutable, protected by cryptography, and always available.
+# SkillChain - A DApp designed for verifying skill certificates that are not mutable, protected by cryptography, and always available.
 
 
 Installation & Set Up
