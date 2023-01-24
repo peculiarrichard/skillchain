@@ -205,4 +205,4 @@ You are welcome to visit the live website connected to the Ethereum Goerli netwo
 - [Peculiar Richard](https://github.com/peculiarrichard)
 - [Michael Damilare Adesina](https://github.com/m-azra3l)
 - [Egar King David](https://github.com/KingDavid9991)
-- [Folayowon Oladapo](https://github.com/folayowon)
+- [Oladapo Folayowon](https://github.com/folayowon)
